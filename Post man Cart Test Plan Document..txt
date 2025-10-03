@@ -1,0 +1,184 @@
+OpenCart Test Plan Document.
+Prepared for: Team Postman 
+Prepared by: Adaobi Achilonu (Test Lead)
+Date: 23 September 2025.
+
+1. Introduction / Overview
+This document defines the scope, approach, resources, schedule, and responsibilities for manual black-box testing of pre-selected OpenCart customer-facing features: Registration, Login, Change Password, and Cart flow.
+Objective: To validate the functionality and usability of these features across Google Chrome and Mozilla Firefox browsers on Windows desktops.
+Testing will be completed in four days, with daily scrums at 7:00 p.m. for progress tracking. 
+Project Deliverables are:
+Test Plan (this document)
+
+
+Test Case document
+
+
+Test Summary report
+
+
+Bug Report
+
+
+
+2. Assumptions
+The test environment is stable and mirrors the production setup.
+
+
+All required test data (sample products, user accounts) are already provisioned before execution.
+
+
+No regression or smoke testing will be carried out due to time constraints.
+
+
+Testers are familiar with OpenCart’s basic workflows.
+
+
+No changes will be deployed during the 4-day test cycle.
+
+
+
+3. Features to be Tested (Test Scope)
+Registration 
+
+
+Login 
+
+
+Change password 
+
+
+Cart flow 
+
+4. Features Not to Be Tested (Out of scope)
+Back-end admin features.
+
+
+Third-party payment gateways 
+
+
+Performance or load testing.
+
+
+Accessibility compliance checks.
+
+
+
+5. Approach
+Test Method: Manual, black-box.
+
+
+Techniques: Positive/negative functional testing, equivalence partitioning for inputs, and boundary checks for fields.
+
+
+Execution: Scripted test cases complemented by exploratory testing.
+
+
+Defect Logging: All issues will be captured in the Bug Report, including clear steps, screenshots (where applicable), expected vs. actual results, severity, and status.
+
+
+Traceability matrix: Each test case is linked to feature coverage.
+
+
+
+6. Pass / Fail Criteria
+Pass: Expected behaviour observed, no defect raised.
+
+
+Fail: Actual behaviour deviates from expected, logged as a defect.
+
+
+Exit Criteria: All critical test cases executed, all high/critical defects logged and reported.
+
+
+
+7. Test Deliverables
+Test Plan document (this document).
+
+
+Test Case document (detailing preconditions, steps, test data, expected result).
+
+
+Test Summary report (execution status, coverage, defect metrics).
+
+
+Bug Report (defect list with IDs and severity).
+
+
+
+8. Resources & Responsibilities
+
+Task / Role
+Assigned To
+Test Lead / Coordination, Final Reporting
+Omilabu
+Test Case Design (Registration & Login)
+Yewande, Pauline
+Test Case Design (Change Password & Cart)
+Tobi, Victor and Benedicta
+Test Execution (All features, Chrome focus
+Victor, Yewande
+Test Execution (All features, Firefox focus)
+Tobi, Pauline
+Defect Logging & Consolidation
+Omilabu
+Daily Scrum Notes and Reiteration 
+Benedicta
+
+
+
+9. Test Environment
+OS: Windows 10 & Windows 11 desktops.
+
+
+Browsers: Google Chrome (latest + previous), Mozilla Firefox (latest + previous).
+
+
+OpenCart Version: Stable version deployed on staging.
+
+
+Tools: Screenshot capture (mono snap), shared defect tracker (Google Sheet), documentation (Google Doc), Dummy account generator (Mailinator), network provider (MTN & Airtel)
+
+
+Test Data: Dummy user accounts, products, coupons, clean test database snapshot for reproducible runs
+
+
+
+10. Schedule of Tasks & Milestones
+Project window: 4 days (Mon 22 Sep – Fri 26 Sep 2025)
+Daily scrum at 7 pm to review progress, blockers, and defect status
+
+Date
+Activity
+23 Sep
+Test case finalization, environment readiness
+24 Sep
+Execute Registration & Login cases, log defects
+25 Sep
+Execute Change Password & Cart/Checkout cases, log defects
+26 Sep
+Consolidate Bug Report, prepare Test Summary, submit deliverables
+
+
+
+11. Risks
+Tight timeframe (4 days): May limit exhaustion of potential test cases. → Mitigation: Prioritize critical path test cases.
+
+
+Environment instability: Like Network failure due to server crash or climate changes, could block execution. → Mitigation: Ensure a backup test environment is in place.
+
+
+Browser differences: Unexpected behaviour between Chrome/Firefox. → Mitigation: Assign testers per browser to ensure coverage.
+
+12. Approvals
+Test Plan reviewed by: Mr Bukola (QA Lead)
+
+
+………………………………….
+
+Sign-off by: Product Owner / Project Manager (Ibironke Yekinni)
+
+
+………………………………….
+
+
