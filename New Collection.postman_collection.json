@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "0c2387fb-5a08-4cd3-aeb8-3e965138edbd",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49122079",
+		"_collection_link": "https://yewandey-2461180.postman.co/workspace/yewandey's-Workspace~1302fd6d-a75b-47c4-8696-d722d77d3811/collection/49122079-0c2387fb-5a08-4cd3-aeb8-3e965138edbd?action=share&source=collection_link&creator=49122079"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
